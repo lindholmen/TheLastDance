@@ -1,0 +1,74 @@
+body {
+  text-align: center;
+  margin:0;
+  /*background-color: #CE1141;*/
+  /*background: rgb(206,17,65);*/
+  /*background: linear-gradient(142deg, rgba(206,17,65,1) 0%, rgba(0,0,0,1) 79%);*/
+  background: rgb(206,17,65);
+  background: radial-gradient(circle, rgba(206,17,65,1) 0%, rgba(0,0,0,1) 45%);
+}
+
+#level-title {
+  /*font-family: 'Press Start 2P', cursive;*/
+  font-family: 'Graduate', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  /*color: #FEF2BF;*/
+  color: #FFFFFF;
+}
+
+#instruction{
+  font-size: 1.5rem;
+}
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  box-shadow: 0 0 20px red;
+  opacity: 0.8;
+}
+
+.stars{
+  width:100%;
+  height:100%;
+  border-radius: 16%;
+}
+
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  /*background-color: grey;*/
+}
+
+footer{
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  background: radial-gradient(circle, rgba(206,17,65,1) 0%, rgba(0,0,0,1) 50%);
+  height: 2.5rem;
+}
+
+.copyright{
+  color: #FFFFFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.75rem;
+}
+
+#info{
+  color: #FEF2BF;
+  font-size: 1rem;
+  visibility: hidden;
+}
